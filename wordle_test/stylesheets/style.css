@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #f4f4f4;
+    font-family: 'Roboto Slab', serif;    
+}
+
+body {
+    margin: 0 auto;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #cdd3d6;
+    align-items: center;
+}
+
+.naviBar {
+    margin-left: 15px;
+}
+
+.statBar {
+    margin-right: 15px;
+}
+
+.hamMenu, .helpMenu {
+    margin: 0px 5px;
+}
+
+.stats, .settings {
+    margin: 0px 5px;
+}
+
+.headerContent h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.boardContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+
+.board {
+    margin: auto;
+    display: flex;
+}
+
+.letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    margin: 3px;
+    border: 2px solid #cdd3d6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.lettersContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.alpharowOne {
+    display: flex;
+    justify-content: center;
+}
+
+.alpharowTwo {
+    display: flex;
+    justify-content: center;
+}
+
+.alpharowThree {
+    display: flex;
+    justify-content: center;
+}
+
+.alphaBit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cdd3d6;
+    height: 60px;
+    width: 40px;
+    margin: 3px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#enterBtn, #delBtn {
+    width: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    .boardContent {
+        margin-top: auto;
+        margin-bottom: 20px;
+    }
+}
