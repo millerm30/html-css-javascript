@@ -127,12 +127,14 @@ header a:hover {
 
 /* Boxes */
 
-#boxes {
+#boxes .container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
     margin-top: 20px;
 }
 
 #boxes .box {
-    float: left;
     text-align: center;
     width: 30%;
     padding: 10px;
