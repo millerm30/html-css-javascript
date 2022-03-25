@@ -23,7 +23,7 @@ body {
 }
 
 .formContent {
-    background-image: url("/web_design3/images/formBack.svg");
+    background-image: url("../images/formBack.svg");
     background-position: center;
     background-size: cover;
     display: flex;
