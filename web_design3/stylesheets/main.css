@@ -100,6 +100,12 @@ body {
     background-color: #1a5d93;
     margin-top: 50px;
     margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.signinBtn:hover {
+    background-color: #28689c;
+    cursor: pointer;
 }
 
 .optionsContent {
@@ -113,6 +119,7 @@ body {
     'drivers vehicles mcp'
     'organ forestry covid';
     padding: 30px 0px;
+    gap: 20px;
 }
 
 .optionsGrid ul {
@@ -128,11 +135,6 @@ body {
     padding: 5px;
     color: #727272;
     text-indent: 0;
-}
-
-.helpContent {
-    background-color: #f4f4f4;
-    height: 350px;
 }
 
 .otherContent {
@@ -155,9 +157,73 @@ body {
     font-weight: 600;
     line-height: 1.6em;
     font-size: 16px;
+    transition: 0.5s;
+}
+
+.moreBtn:hover {
+    background-color: #d8d8d8;
+    cursor: pointer;
 }
 
 .footerContent {
     height: 180px;
     background-color: #5f6368;
+    padding: 30px;
+}
+
+.contactContent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.needHelp p {
+    font-weight: 800;
+    color: #fff;
+}
+
+.serviceContact p {
+    color: #fff;
+}
+
+.serviceContact a {
+    color: #fff;
+}
+
+.companyLogo, .needHelp, .serviceContact {
+    margin: 0 10px 0 10px;
+}
+
+.disclaimerContent {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contactUs, .visitUs, .disclaimer {
+    margin: 0 10px 0 10px;
+}
+
+.disclaimerContent a {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.disclaimerContent a:hover {
+    color: #d8d8d8;
+}
+
+@media screen and (max-width: 600px) {
+    .optionsGrid {
+        display: grid;
+        grid-template-areas:
+            'drivers' 
+            'vehicles' 
+            'mcp'
+            'organ' 
+            'forestry' 
+            'covid';
+        padding: 30px 0px;
+        gap: 20px;
+    }
 }
