@@ -152,3 +152,18 @@ footer {
     text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    #boxes .box {
+        width: 100%;
+    }
+    header li {
+        padding: 0 5px 0 5px;
+    }
+    #showcase h1 {
+       line-height: 1.6em;
+    }
+}
+
