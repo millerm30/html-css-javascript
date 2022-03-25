@@ -36,6 +36,12 @@ ul {
     border: none;
     padding: 0 20px 0 20px;
     color: #fff;
+    transition: 1.0s;
+}
+
+.button-1:hover {
+    background-color: #f5592e;
+    cursor: pointer;
 }
 
 /* Header */
@@ -53,6 +59,7 @@ header a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
+    transition: 0.5s;
 }
 
 header li {
@@ -77,6 +84,7 @@ header nav {
 header .highlight, header .current a {
     color: #e8491d;
     font-weight: bold;
+    transition: 0.5s;
 }
 
 header a:hover {
