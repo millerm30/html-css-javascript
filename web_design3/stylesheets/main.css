@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Lato, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerContent {
+    background-color: #212326;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+}
+
+.formContent {
+    background-image: url("/web_design3/images/formBack.svg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.createAccount a {
+    color: #1a5d93;
+}
+
+.createAccount a:hover {
+    background-color: #c5daec;
+}
+
+.forgotPass {
+    text-decoration: none;
+    color: #1a5d93;
+    font-weight: 700;
+}
+
+.forgotPass:hover {
+    text-decoration: underline;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 450px;
+    margin-top: 29px;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.363);
+}
+
+.myForm h1 {
+    font-size: 34px;
+    font-weight: 900;
+    font-family: Lato, sans-serif;
+    margin: 10px 0px 0px 0px;
+}
+
+.createAccount {
+    margin: 10px 0px 10px 0px;
+}
+
+#emailAddress, #passWord {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#emailAddress {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#passWord {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signinBtn {
+    width: 100%;
+    padding: 10px;
+    line-height: 1.5em;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    background-color: #1a5d93;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.optionsContent {
+    padding: 40px 30px;
+    margin: 0 auto;
+}
+
+.optionsGrid {
+    display: grid;
+    grid-template-areas: 
+    'drivers vehicles mcp'
+    'organ forestry covid';
+    padding: 30px 0px;
+}
+
+.optionsGrid ul {
+    padding: 0;
+    margin-left: 24px;
+}
+
+.canDo h2 {
+    font-weight: 800;
+}
+
+.optionsGrid li {
+    padding: 5px;
+    color: #727272;
+    text-indent: 0;
+}
+
+.helpContent {
+    background-color: #f4f4f4;
+    height: 350px;
+}
+
+.otherContent {
+    justify-content: center;
+    background-color: #512d6d;
+    text-align: center;
+    padding: 55px;
+}
+
+.otherContent h1 {
+    color: #fff;
+    font-weight: 800;
+}
+
+.moreBtn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #512d6d;
+    font-weight: 600;
+    line-height: 1.6em;
+    font-size: 16px;
+}
+
+.footerContent {
+    height: 180px;
+    background-color: #5f6368;
+}
