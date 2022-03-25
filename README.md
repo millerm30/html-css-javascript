@@ -15,6 +15,7 @@ I'm currently a student with [Get Coding](http://www.get-coding.ca) completing F
 
 - [Web Design Layout 1](https://millerm30.github.io/html-css-javascript/web_design1/index.html)
 - [Web Design Layout 2](https://millerm30.github.io/html-css-javascript/web_design2/index.html)
+- [Web Design Layout 3](https://millerm30.github.io/html-css-javascript/web_design3/index.html)
 - [Wordle Site Layout Test](https://millerm30.github.io/html-css-javascript/wordle_test/index.html)
 
 ## Authors
