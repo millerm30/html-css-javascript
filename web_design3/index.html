@@ -28,13 +28,19 @@
                     </span>
                     <span class="email">
                         <label for="email" class="emailName">Email address</label>
-                        <input type="email" name="emailAddress" id="emailAddress" autocomplete="on">
+                        <input type="email" name="emailAddress" id="emailAddress" autocomplete="on" autofocus>
                     </span>
                     <span class="password">
-                        <label for="password" class="passWord">Password</label>
+                        <span class="showPass">
+                            <label for="password" class="passWord">Password</label>
+                            <span class="passCheck">
+                                <input type="checkbox" class="passCheck" onclick="showPass()">
+                                <p>Show Password</p>
+                            </span>
+                        </span>
                         <input type="password" name="password" id="passWord" autocomplete="on">
-                        <a href="#" class="forgotPass">Forgot your password?</a>
                     </span>
+                    <a href="#" class="forgotPass">Forgot your password?</a>
                     <span class="signin">
                         <button class="signinBtn">Sign In</button>
                     </span>
@@ -159,6 +165,7 @@
                 </div>
             </div>
         </div>
-        <script src="./javascript/accordionActions.js"></script>
+        <script src="javascript/passshowAction.js"></script>
+        <script src="javascript/accordionActions.js"></script>
     </body>
 </html>
