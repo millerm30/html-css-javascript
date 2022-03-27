@@ -177,7 +177,7 @@ body {
 }
 
 .active:after {
-    content: "\2212";
+    content: "\002D";
 }
 
 .panel {
@@ -186,6 +186,10 @@ body {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-out;
+}
+
+.panel ol li {
+    padding: 5px 0px;
 }
 
 .otherContent {
