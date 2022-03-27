@@ -217,7 +217,6 @@ body {
 }
 
 .footerContent {
-    height: 180px;
     background-color: #5f6368;
     padding: 30px;
 }
@@ -276,5 +275,9 @@ body {
             'covid';
         padding: 30px 0px;
         gap: 20px;
+    }
+    .contactContent {
+        flex-direction: column;
+        text-align: center;
     }
 }
