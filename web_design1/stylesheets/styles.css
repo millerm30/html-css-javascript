@@ -229,5 +229,11 @@ header a:hover {
     #showcase h1 {
        line-height: 1.6em;
     }
+    #newsletter h1 {
+    text-align: center;
+    }
+    #newsletter form {
+        text-align: center;
+    }
 }
 
