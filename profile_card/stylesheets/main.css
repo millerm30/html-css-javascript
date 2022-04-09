@@ -24,8 +24,41 @@ body {
     border-radius: 20px 20px 0px 0px;
 }
 
+.profileImage {
+    text-align: center;
+    margin-top: -70px;
+}
+
 .profileImage img {
     width: 140px;
     height: 140px;
-    border-radius: 1000%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.profileInfo {
+    text-align: center;
+}
+
+.profileInfo a {
+    text-decoration: none;
+    color: #000;
+}
+
+.socialContent {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.socialContent i {
+    padding: 0px 10px;
+}
+
+.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
