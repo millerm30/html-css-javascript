@@ -9,7 +9,7 @@ body {
 }
 
 .cardContent {
-    margin: 0 auto;
+    margin: 20% auto;
     width: 400px;
     background-color: #fff;
     border-radius: 20px;
@@ -61,4 +61,12 @@ body {
     background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background-clip: text;
     -webkit-background-clip: text;
+}
+
+.fa-linkedin {
+    color: #0E76A8;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
 }
