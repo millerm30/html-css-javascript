@@ -9,7 +9,7 @@ body {
 }
 
 .cardContent {
-    margin: 20% auto;
+    margin: 5% auto;
     width: 400px;
     background-color: #fff;
     border-radius: 20px;
@@ -47,8 +47,10 @@ body {
 
 .socialContent {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
+    padding-top: 10px;
     padding-bottom: 10px;
+    border-top: 1px solid #ccc;
 }
 
 .socialContent i {
