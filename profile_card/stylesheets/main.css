@@ -40,6 +40,11 @@ body {
     text-align: center;
 }
 
+.profileInfo a {
+    text-decoration: none;
+    color: #000;
+}
+
 .studentInfo {
     display: flex;
     flex-direction: column;
@@ -57,11 +62,6 @@ body {
     margin: 0;
     padding-top: 20px;
     padding-bottom: 10px;
-}
-
-.profileInfo a {
-    text-decoration: none;
-    color: #000;
 }
 
 .socialContent {
