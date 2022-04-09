@@ -19,6 +19,7 @@ I'm currently a student with [Get Coding](http://www.get-coding.ca) completing F
 - [Web Design Layout 2](https://millerm30.github.io/html-css-javascript/web_design2/index.html)
 - [Web Design Layout 3](https://millerm30.github.io/html-css-javascript/web_design3/index.html)
 - [Web Design Layout 4](https://millerm30.github.io/html-css-javascript/web_design4/index.html)
+- [Profile Card Layout](https://millerm30.github.io/html-css-javascript/profile_card/index.html)
 
 ## Authors
 
