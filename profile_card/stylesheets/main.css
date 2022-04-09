@@ -34,7 +34,6 @@ body {
 }
 
 .profileImage img {
-    width: 140px;
     height: 140px;
     border-radius: 50%;
     border: 3px solid #fff;
