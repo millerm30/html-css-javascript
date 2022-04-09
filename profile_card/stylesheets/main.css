@@ -8,6 +8,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Card Settings */
+
 .cardContent {
     margin: 5% auto;
     width: 400px;
@@ -15,6 +17,8 @@ body {
     border-radius: 20px;
     box-shadow: 0px 0px 4px 2px #ccc;
 }
+
+/* Card Header Area Settings */
 
 .cardHeader {
     text-align: center;
@@ -35,6 +39,8 @@ body {
     border-radius: 50%;
     border: 3px solid #fff;
 }
+
+/* Profile Area Settings */
 
 .profileInfo {
     text-align: center;
@@ -63,6 +69,8 @@ body {
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
+/* Social Contact Area Settings */
 
 .socialContent {
     text-align: center;
