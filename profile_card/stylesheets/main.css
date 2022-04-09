@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cardContent {
+    margin: 0 auto;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 2px #ccc;
+}
+
+.cardHeader {
+    text-align: center;
+    height: 100px;
+    color: #fff;
+    background-image: url(../images/headerback.jpg);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.profileImage img {
+    width: 140px;
+    height: 140px;
+    border-radius: 1000%;
+}
