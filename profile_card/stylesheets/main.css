@@ -103,3 +103,38 @@ body {
 .fa-github {
     color: #000;
 }
+
+.fa-linkedin:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-github:hover {
+    transform-origin: 50% 50%;
+    animation: pulse 2000ms;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scaleX(1) scaleY(1);
+    }
+
+    15% {
+        transform: scaleX(1.25) scaleY(1.25);
+    }
+
+    30% {
+        transform: scaleX(1) scaleY(1);
+    }
+
+    45% {
+        transform: scaleX(1.25) scaleY(1.25);
+    }
+
+    60% {
+        transform: scaleX(1) scaleY(1);
+    }
+
+    75% {
+        transform: scaleX(1.25) scaleY(1.25);
+    }
+
+    100% {
+        transform: scaleX(1) scaleY(1);
+    }
+}
