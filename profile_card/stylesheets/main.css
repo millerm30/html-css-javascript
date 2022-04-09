@@ -40,6 +40,25 @@ body {
     text-align: center;
 }
 
+.studentInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.studentInfo img {
+    width: 80px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.studentInfo h4 {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
 .profileInfo a {
     text-decoration: none;
     color: #000;
@@ -71,4 +90,8 @@ body {
 
 .fa-twitter {
     color: #1DA1F2;
+}
+
+.fa-github {
+    color: #000;
 }
