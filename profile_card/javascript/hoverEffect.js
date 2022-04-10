@@ -4,10 +4,6 @@ const card = document.querySelector(".cardContent");
 const motionMatchMedia = window.matchMedia("(prefers-reduced-motion)");
 const THRESHOLD = 15;
 
-/*
- * Read the blog post here:
- * https://letsbuildui.dev/articles/a-3d-hover-effect-using-css-transforms
- */
 function handleHover(e) {
   const { clientX, clientY, currentTarget } = e;
   const { clientWidth, clientHeight, offsetLeft, offsetTop } = currentTarget;
