@@ -1,7 +1,7 @@
 'use strict';
 
-const card = document.querySelector(".cardContent");
-const motionMatchMedia = window.matchMedia("(prefers-reduced-motion)");
+const card = document.querySelector('.cardContent');
+const motionMatchMedia = window.matchMedia('(prefers-reduced-motion)');
 const THRESHOLD = 15;
 
 function handleHover(e) {
@@ -21,6 +21,6 @@ function resetStyles(e) {
 }
 
 if (!motionMatchMedia.matches) {
-  card.addEventListener("mousemove", handleHover);
-  card.addEventListener("mouseleave", resetStyles);
+  card.addEventListener('mousemove', handleHover);
+  card.addEventListener('mouseleave', resetStyles);
 }
