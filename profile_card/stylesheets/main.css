@@ -40,7 +40,7 @@ body {
     height: 140px;
     width: 150px;
     border-radius: 50%;
-    border: 3px solid #fff;
+    outline: 2px solid #fff;
 }
 
 /* Profile Area Settings */
